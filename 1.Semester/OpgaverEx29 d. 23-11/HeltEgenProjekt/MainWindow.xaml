@@ -1,0 +1,15 @@
+﻿<Window x:Class="HeltEgenProjekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HeltEgenProjekt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="Black">
+    <Grid>
+        <Label x:Name="lblClock" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="70" HorizontalContentAlignment="Center" Width="780" Margin="0,10,0,0" Foreground="White"/>
+        <Label x:Name="lblDataTimeClock" Content="Label" HorizontalAlignment="Center" Margin="0,118,0,0" VerticalAlignment="Top" FontSize="70" HorizontalContentAlignment="Center" Width="780" F
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Height="100" Width="200"/>oreground="White"/>
+
+    </Grid>
+</Window>

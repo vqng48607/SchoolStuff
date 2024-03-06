@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week44Blazer", "Week44Blazer.csproj", "{EE0EAC36-E681-4FE1-902C-65797C0A5DD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week44BlazerAPI", "..\Week44BlazerAPI\Week44BlazerAPI.csproj", "{4552EB5D-29E5-4E39-B49C-923F5D583E52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE0EAC36-E681-4FE1-902C-65797C0A5DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0EAC36-E681-4FE1-902C-65797C0A5DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0EAC36-E681-4FE1-902C-65797C0A5DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0EAC36-E681-4FE1-902C-65797C0A5DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4552EB5D-29E5-4E39-B49C-923F5D583E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4552EB5D-29E5-4E39-B49C-923F5D583E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4552EB5D-29E5-4E39-B49C-923F5D583E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4552EB5D-29E5-4E39-B49C-923F5D583E52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E73F712-7F3A-4F7F-96EE-DDF544A3FC45}
+	EndGlobalSection
+EndGlobal

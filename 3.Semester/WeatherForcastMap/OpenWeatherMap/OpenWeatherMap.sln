@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatherMap", "OpenWeatherMap.csproj", "{5121B178-1831-4154-B743-F078F8F420E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatherMapAPI", "..\OpenWeatherMapAPI\OpenWeatherMapAPI.csproj", "{572FCB5F-F9FD-48D6-867D-E2CCA5DE1DBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForcastLibrary", "..\WeatherForcastLibrary\WeatherForcastLibrary.csproj", "{2BB27D1D-3370-4911-97F1-A8771C509AA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5121B178-1831-4154-B743-F078F8F420E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5121B178-1831-4154-B743-F078F8F420E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5121B178-1831-4154-B743-F078F8F420E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5121B178-1831-4154-B743-F078F8F420E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{572FCB5F-F9FD-48D6-867D-E2CCA5DE1DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572FCB5F-F9FD-48D6-867D-E2CCA5DE1DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572FCB5F-F9FD-48D6-867D-E2CCA5DE1DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572FCB5F-F9FD-48D6-867D-E2CCA5DE1DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB27D1D-3370-4911-97F1-A8771C509AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB27D1D-3370-4911-97F1-A8771C509AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB27D1D-3370-4911-97F1-A8771C509AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB27D1D-3370-4911-97F1-A8771C509AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {966FB03B-CF07-4459-BDAE-E11E59A9639E}
+	EndGlobalSection
+EndGlobal

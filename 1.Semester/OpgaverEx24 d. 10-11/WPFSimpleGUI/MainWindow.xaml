@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPFSimpleGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFSimpleGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="500">
+    <Grid>
+        <Label Content="1" HorizontalAlignment="Left" Margin="62,40,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.88,-0.769"/>
+        <Label Content="2" HorizontalAlignment="Left" Margin="62,88,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.489,0.753"/>
+        <Label Content="3" HorizontalAlignment="Left" Margin="62,155,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.638,1.619"/>
+        <Label Content="4" HorizontalAlignment="Left" Margin="62,211,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbLine1" HorizontalAlignment="Left" Margin="145,44,0,0" TextWrapping="Wrap" Text="TextBox1" VerticalAlignment="Top" Width="120" />
+        <TextBox x:Name="tbLine2" HorizontalAlignment="Left" Margin="145,105,0,0" TextWrapping="Wrap" Text="TextBox2" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbLine3" HorizontalAlignment="Left" Margin="145,164,0,0" TextWrapping="Wrap" Text="TextBox3" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbLine4" HorizontalAlignment="Left" Margin="145,219,0,0" TextWrapping="Wrap" Text="TextBox4" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Scroll Up" HorizontalAlignment="Left" Margin="348,73,0,0" VerticalAlignment="Top" Click="Scroll_Up"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="358,140,0,0" VerticalAlignment="Top" Click="Clear"/>
+        <Button Content="Scroll Down" HorizontalAlignment="Left" Margin="340,204,0,0" VerticalAlignment="Top" Click="Scroll_Down"/>
+        <TextBox x:Name="tbLine5" HorizontalAlignment="Left" Margin="145,294,0,0" TextWrapping="Wrap" Text="TextBox5" VerticalAlignment="Top" Width="120" Height="18"/>
+
+    </Grid>
+</Window>

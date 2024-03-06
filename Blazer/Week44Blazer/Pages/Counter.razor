@@ -1,0 +1,31 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    [Parameter]
+    public int Multiply { get; set; }
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        if (Multiply != 0)
+        {
+            currentCount = currentCount + (Multiply * 10);
+        }
+        else
+        {
+            currentCount = currentCount + 10;
+        }
+
+        
+    }
+
+    
+}

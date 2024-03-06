@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<div>
+    @foreach (var item in Model.list)
+    {
+        <p style="font-weight: bold">
+            Date: @item.dt_txt
+        </p>
+        <p>
+            City: @Model.city.name
+        </p>
+        <p>
+            Temperatur: @item.main.temp
+        </p>
+        <p>Feels like: @item.main.feels_like</p>
+
+
+        foreach (var weather in item.weather)
+        {
+            <p>Weather: @weather.main <img src="@($"https://openweathermap.org/img/wn/{weather.icon}.png")" /></p>
+        }
+        <hr />
+    }
+
+</div>

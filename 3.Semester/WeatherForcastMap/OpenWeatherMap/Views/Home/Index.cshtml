@@ -1,0 +1,25 @@
+﻿@model StormGlass.Models.RootV2;
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div>
+    @foreach (var item in Model.hours)
+    {
+        <p>
+            SwellHeight: @item.swellHeight.dwd;
+            SwellHeight: @item.swellHeight.icon;
+            SwellHeight: @item.swellHeight.noaa;
+            SwellHeight: @item.swellHeight.sg;
+        </p>
+        <p>
+            SwellPeriod: @item.swellPeriod.dwd;
+            SwellPeriod: @item.swellPeriod.icon;
+            SwellPeriod: @item.swellPeriod.noaa;
+            SwellPeriod: @item.swellPeriod.sg;
+        </p>
+
+        <hr />
+
+    }
+
+</div>
